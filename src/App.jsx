@@ -88,7 +88,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Instegram</h1>
+        <h1>Integram</h1>
         <UserSelector users={users} onUserSelected={setSelectedUserId} />
         <button onClick={handleReset}>Reset Database</button>
         <button onClick={handlePopulate}>Populate Database</button>
