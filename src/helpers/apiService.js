@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = 'https://backend-integram.onrender.com/';
 
 // Get all users or filter them by name
 const getUsers = async (name = '') => {
